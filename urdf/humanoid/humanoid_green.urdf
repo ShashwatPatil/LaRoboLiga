@@ -1,7 +1,6 @@
 <robot name="humanoid">
-
-<material name="color">
-    <color rgba="0.08235294117647059 0.6901960784313725 0.10196078431372549 1.0" />
+<material name="colour">
+  <color rgba="0.318 0.012 0.416 1.0"/>
 </material>
 
 <!--To open this model with Gazebo replace the null masses, inertias and dimensions of the 'fake links f1 and f2'-->
@@ -21,7 +20,7 @@
             <geometry>
                 <box size="0.13815     0.24914    0.097469"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -55,7 +54,7 @@
             <geometry>
                 <box size="0.13815     0.16323    0.095104"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -87,7 +86,7 @@
             <geometry>
                 <box size="0.13815     0.16323    0.085916"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -119,7 +118,7 @@
             <geometry>
                 <box size="0.13815     0.16323    0.085916"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -158,7 +157,7 @@
             <geometry>
                 <box size="0.13457    0.052626     0.11975"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -198,7 +197,7 @@
             <geometry>
 		<cylinder length="0.089252" radius="0.014205"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -230,7 +229,7 @@
             <geometry>
                 <sphere radius="0.089005"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -257,7 +256,7 @@
             <geometry>
                 <cylinder length="0.13047" radius="0.023574"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -297,7 +296,7 @@
             <geometry>
                 <cylinder length="0.26994" radius="0.029449"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -330,7 +329,7 @@
             <geometry>
                 <cylinder length="0.22247" radius="0.019633"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -363,7 +362,7 @@
             <geometry>
                 <box size="0.11145     0.16718    0.039266"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -387,7 +386,7 @@
             <geometry>
                 <box size="0     0    0"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
     </link>
 	<!--Chain from (12) to (15)-->
@@ -405,7 +404,7 @@
             <geometry>
                 <cylinder length="0.13047" radius="0.023574"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -445,7 +444,7 @@
             <geometry>
                 <cylinder length="0.26994" radius="0.029449"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -478,7 +477,7 @@
             <geometry>
                 <cylinder length="0.22247" radius="0.019633"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -511,7 +510,7 @@
             <geometry>
                 <box size="0.11145     0.16718    0.039266"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -535,7 +534,7 @@
             <geometry>
                 <box size="0     0    0"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
     </link>
 	<!--Chain from (16) to (19)-->
@@ -567,7 +566,7 @@
             <geometry>
                 <cylinder length="0.44898" radius="0.0565"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -600,7 +599,7 @@
             <geometry>
                 <cylinder length="0.40608" radius="0.037388"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -640,7 +639,7 @@
             <geometry>
                 <box size="0.17983    0.074775    0.078509"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -666,7 +665,7 @@
             <geometry>
                 <box size="0.060173    0.074775    0.014191"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -706,7 +705,7 @@
             <geometry>
                 <cylinder length="0.44898" radius="0.0565"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -739,7 +738,7 @@
             <geometry>
 		<cylinder length="0.40608" radius="0.037388"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -779,7 +778,7 @@
             <geometry>
                 <box size="0.17983    0.074775    0.078509"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>
@@ -805,7 +804,7 @@
             <geometry>
                 <box size="0.060173    0.074775    0.014191"/>
             </geometry>
-            <material name="color"/>
+            <material name="colour"/>
         </visual>
 
         <collision>

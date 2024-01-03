@@ -1,7 +1,7 @@
 <robot name="humanoid">
 
 <material name="color">
-    <color rgba="0.8980392156862745 0.0 0.0 1.0" />
+  <color rgba="0.318 0.012 0.416 1.0"/>
 </material>
 
 <!--To open this model with Gazebo replace the null masses, inertias and dimensions of the 'fake links f1 and f2'-->
