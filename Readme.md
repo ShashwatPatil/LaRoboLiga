@@ -17,7 +17,7 @@ This repository holds the **official arena for the event** which will be used fo
 
    Activation and deactivation of your virtual environment, will be done as specified [here](https://docs.python.org/3/library/venv.html). Scroll down to the table where the activation method for various operating systems is provided. Deactivation, in most cases, can be done by simply typing deactivate while being in in the virtual environment.
 
-2. Once you activate your virtual environment, you will have to install the various dependencies of this project. We have simplified this process for you. Just follow the following steps:
+2. Once you activate your virtual environment, you will have to install the various dependencies of this project and also of Winter Camp, you can find them [here](https://github.com/Robotics-Club-IIT-BHU/Robotics-Winter-Camp-2023), if already done then proceed. We have simplified this process for you. Just follow the following steps:
    * Download/Clone this repository on to your local machine.
    * Navigate to the root folder of this repository through your terminal.
    * Execute the following command in your terminal.
